@@ -232,3 +232,65 @@ p:empty:before {
     opacity: 0;
   }
 }
+@media (prefers-color-scheme: dark) {
+  /* Overrides for Dark Mode. */
+  body {
+      color: white;
+      background: #1d1e1d;
+  }
+  .subtitle{
+    color:#d8cdbb;
+  }
+  .subtitle strong{
+    color:#e8ddcb;
+  }
+  .hero .hero-body,
+  .buttons .is-primary{
+    background-color:#228840;
+  }
+  .tabs li.is-active a {
+    border-bottom-color: #3dbf61;
+    color: #3dbf61;
+  }
+  .message.is-danger .message-header{
+    background-color: #bf3753
+  }
+  .message.is-danger .message-body{
+    background-color: #f14668;
+    color: #f0f0f0;
+  }
+  .button.is-primary.is-light{
+    background-color: #1db954;
+  }
+  .button.is-light{
+    background-color:#323332;
+    color:#eeefe5;
+  }
+  .button.is-primary.is-light.is-hovered{
+    background-color: #329d50;
+  }
+  .button.is-light.is-hovered{
+    background-color:#4d4f4d;
+    color:#eeefe5;
+  }
+  .buttons strong{
+    color: #F0F4F8;
+  }
+  .footer{
+    background-color: #1f201f;
+    color: #d8cdbb;
+  }
+  .footer .content a{
+    color: #1fab4f;
+  }
+ 
+  .card{
+    background-color: #1f201f;
+  }
+  .card p{
+    color: #d8cdbb;
+  }
+  .card a{
+    color: #1fab4f;
+  }
+}
